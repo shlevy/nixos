@@ -7,7 +7,7 @@
   options = {
 
     hardware.enableAllFirmware = pkgs.lib.mkOption {
-      default = false;
+      default = true;
       type = pkgs.lib.types.bool;
       description = ''
         Turn on this option if you want to enable all the firmware shipped with Debian/Ubuntu.
